@@ -1,0 +1,16 @@
+{
+  "name": "com.easybrain.json",
+  "version": "1.0.0",
+  "displayName": "Easybrain Json",
+  "description": "IJsonProvider interface and his implementations",
+  "keywords": [
+    "json",
+    "easybrain"
+  ],
+  "author": {
+    "name": "Easybrain",
+    "email": "yauhen.zenkevich@easybrain.com",
+    "url": "https://www.easybrain.com"
+  },
+  "type": "library"
+}
