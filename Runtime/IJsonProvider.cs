@@ -4,5 +4,6 @@
     {
         string ToJson(object obj);
         T FromJson<T>(string json);
+        bool IsJson(string json);
     }
 }

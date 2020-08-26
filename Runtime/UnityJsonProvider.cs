@@ -13,5 +13,15 @@ namespace Easybrain.Json
         {
             return JsonUtility.FromJson<T>(json);
         }
+
+        public bool IsJson(string json)
+        {
+            if (string.IsNullOrEmpty(json))
+            {
+                return false;
+            }
+
+            return json.StartsWith("{") && json.EndsWith("}");
+        }
     }
 }

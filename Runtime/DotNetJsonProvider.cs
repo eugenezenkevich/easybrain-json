@@ -13,6 +13,16 @@ namespace Easybrain.Json
             T result = Newtonsoft.Json.JsonConvert.DeserializeObject<T>(json);
             return result;
         }
+
+        public bool IsJson(string json)
+        {
+            if (string.IsNullOrEmpty(json))
+            {
+                return false;
+            }
+
+            return json.StartsWith("{") && json.EndsWith("}");
+        }
     }
 }
 #endif
