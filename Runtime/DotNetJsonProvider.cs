@@ -1,4 +1,5 @@
 ﻿#if JSONDOTNET
+using System;
 namespace Easybrain.Json
 {
     public class DotNetJsonProvider : IJsonProvider
