@@ -23,6 +23,11 @@ namespace Easybrain.Json
 
             return json.StartsWith("{") && json.EndsWith("}");
         }
+
+        public Type GetProviderType()
+        {
+            return this.GetType();
+        }
     }
 }
 #endif

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 namespace Easybrain.Json
 {
@@ -23,5 +24,11 @@ namespace Easybrain.Json
 
             return json.StartsWith("{") && json.EndsWith("}");
         }
+
+        public Type GetProviderType()
+        {
+            return this.GetType();
+        }
+        
     }
 }
