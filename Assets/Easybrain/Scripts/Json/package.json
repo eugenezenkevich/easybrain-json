@@ -1,6 +1,6 @@
 {
   "name": "com.easybrain.json",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "displayName": "Easybrain Json",
   "description": "IJsonProvider interface and his implementations",
   "keywords": [
